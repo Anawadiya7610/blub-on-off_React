@@ -1,0 +1,58 @@
+.main_heading{
+    width: 100%;
+}
+
+.head{
+    display: flex;
+    width:68%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.blub_head{
+    width: 80%;
+    margin: auto;
+
+}
+.textEl{
+    text-align: center;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.imagesBlub{
+    width: 10rem;
+}
+
+.btn_div{
+    width: 40%;
+    margin: auto;
+}
+.btn-div1{
+   width: fit-content;
+   margin: auto;
+   position: relative;
+}
+
+.btn{
+    padding:0.5rem 1rem;
+    border:1px solid gainsboro;
+} 
+
+.btn:hover{
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+@media(max-width:800px){
+  #five,#four{
+    display: none;
+  }
+}
+@media(max-width:450px){
+  #three{
+    display: none;
+  }
+}
