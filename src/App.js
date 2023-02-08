@@ -1,8 +1,10 @@
+import React from "react";
 import Blub from "./Blub";
+import Header from "./header";
 function App() {
   return (
     <div className="main_heading">
-      <h1 className="textEl">Blub Images</h1>
+      <Header/>
       <Blub />
     </div>
   );

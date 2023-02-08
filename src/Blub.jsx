@@ -1,5 +1,5 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import { useState} from "react";
 import BlubOn from "./photo/blubon.jpg";
 import BlubOff from "./photo/bluboff.jpg";
 import "./photo/styles.css";
